@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Matahari Sans Condensed 600 Semi Bold';
+    src: url(font/MatahariCondensed-600CnSmOb.ttf) format('truetype');
+    font-style: normal;
+}
+
+body {
+    font-family: 'Matahari Sans Condensed 600 Semi Bold', Arial, sans-serif;
+}
+
+.box_topo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #1e2327;
+    border-bottom: 2px solid #ccc;
+}
+
+.box_menuEsquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.box_menuEsquerdo img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.box_menuEsquerdo h1 {
+    font-size: 20px;
+    color: #fafafa;
+    line-height: 1.2;
+}
+
+.box_menuEsquerdo h1 span {
+    color: #1bb4e8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.box_menuDireito ul {
+    display: flex; 
+    padding: 0;
+    margin: 20px;
+}
+
+.box_menuDireito ul li {
+    margin: 0 15px;
+    list-style: none;
+    justify-content: space-between 200px;
+}
+
+.box_menuDireito ul li a {
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: bold;
+    transition: color 0.5s ease;
+}
+
+.box_menuDireito ul li a:hover {
+    color: #1bb4e8;
+    text-decoration: none;
+}
+
+/*--- Seção do meio ---*/
+
+.box_meio img {
+    width: 100%;
+    display: inline-block;
+}
+
+.box_background {
+    position: absolute;
+    bottom: 100px;
+    left: 990px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: left;
+    z-index: 100;
+    max-width: 100%;
+    width: 600px;
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+.box_textoTelefone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fafafa;
+    text-align: left;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
+
+.box_textoTelefone img {
+    width: 30px;
+    height: auto;
+    margin: 0;
+}
+
+.box_textoTelefone p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 25px;
+    
+}
+
+.box_textoTelefone p span {
+    color: #C6B07F;
+    font-weight: bold;
+}
+
+/*--- Seção inferior ---*/
+
+.box_baixo {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 35px;
+    padding-top: 15px;
+}
+
+.box_imgDestinos img {
+    width:100%;
+    height:100%;
+    margin-top: 20px;
+
+}
+
+.box_imgNossaFrota {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.box_imgNossaFrota img {
+    width: 100%;
+    height: auto;
+}
+
+.box_tituloNossaFrota,
+.box_tituloDestinos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: #fafafa;
+}
+.box_tituloNossaFrota {
+    background-color: #C6B07F;
+    padding: 5px;
+}
+
+.box_tituloDestinos{
+    background-color: #1cb4ec;
+    padding: 2px;
+}
+
+
+
